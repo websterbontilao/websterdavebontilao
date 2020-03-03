@@ -20,7 +20,6 @@
     color: white;
 }
 
-
 /* CANVASS CSS START */
 *{
     -webkit-box-sizing: border-box;
@@ -40,3 +39,8 @@ canvas{
 }
 
 /* CANVASS CSS END */
+
+#full-name {
+    font-family: Helvetica;
+    color: #9e9e9e;
+}
