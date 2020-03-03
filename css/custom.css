@@ -1,0 +1,58 @@
+.demo-card-wide.mdl-card {
+    width: 512px;
+}
+.demo-card-wide > .mdl-card__title {
+    color: #fff;
+    height: 176px;
+}
+.demo-card-wide > .mdl-card__menu {
+    color: #fff;
+}
+
+.demo-layout-transparent {
+    background: url('../assets/demos/transparent.jpg') center / cover;
+}
+
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+    /* This background is dark, so we set text to white. Use 87% black instead if
+        your background is light. */
+    color: white;
+}
+
+/* CANVASS CSS START */
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    overflow: hidden;
+}
+
+canvas{
+    background-color: #000;
+}
+
+.container {
+    z-index: 1;
+    position: fixed;
+}
+
+#header {
+    position: relative;
+}
+/* CANVASS CSS END */
+
+#full-name {
+    font-family: Helvetica;
+    color: #9e9e9e;
+}
+
+#profile-picture {
+    max-height: 200px;
+}
