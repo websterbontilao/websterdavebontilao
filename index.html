@@ -3,19 +3,29 @@
     <head>
         <!-- CSS -->
         <link rel="stylesheet" href="./material-design/material.min.css">
-        <link rel="stylesheet" href="./css/bootstrap-4.4.1.min.css">
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
         <link rel="stylesheet" href="./css/custom.css">
 
         <!-- JAVASCRIPT -->
         <script src="./material-design/material.min.js"></script>
         <script src="./js/jquery-3.4.1.min.js"></script>
-        <script src="./js/popper-1.16.0.min.js"></script>
-        <script src="./js/bootstrap-4.4.1.min.js"></script>
+        <script src="./js/popper.min.js"></script>
+        <script src="./js/bootstrap.min.js"></script>
 
         <!-- GOOGLE FONTS -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     </head>
-    <body>
+    <body id="body">
+        <nav class="navbar navbar-dark bg-transparent">
+            <!-- <div class="row"> -->
+                <div class="col-sm-4"></div>
+                <div class="col-sm-4">
+                    <img src="./assets/profile-pic.jpg" class="rounded-circle" alt="Profile Picture">
+                    <h1 id="full-name">Webster Dave Bontilao</h1>
+                </div>
+                <div class="col-sm-4"></div>
+            <!-- </div> -->
+        </nav>
         <!-- <div class="demo-layout-transparent mdl-layout mdl-js-layout">
             <header class="mdl-layout__header mdl-layout__header--transparent">
                 <div class="mdl-layout__header-row">
@@ -75,7 +85,7 @@
             </div>
         </div> -->
         <canvas id="nokey" width="800" height="800">
-            Your Browser Don't Support Canvas, Please Download Chrome ^_^``
+            Your browser doesn't support HTML 5.
         </canvas>
         <script src="./js/background-canvas.js"></script>
     </body>
