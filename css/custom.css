@@ -39,7 +39,6 @@ canvas{
 }
 
 .container {
-    z-index: 1;
     position: fixed;
 }
 
