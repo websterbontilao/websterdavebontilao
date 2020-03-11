@@ -45,6 +45,14 @@ canvas{
 #header {
     position: relative;
 }
+
+.hidden {
+    display: none;
+}
+
+.invisible {
+    opacity: 0;
+}
 /* CANVASS CSS END */
 
 h1 {
@@ -77,4 +85,23 @@ if it's not present, don't show loader */
 	height: 100%;
 	z-index: 9999;
 	background: url('../assets/Loading.gif') center no-repeat #fff;
+}
+
+#contact-informations {
+    background-color: #9e9e9e;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: none;
+    color: white;
+    text-align: center;
+    padding: 25px 15px 25px 15px;
+}
+
+.fa.icon {
+    font-size: 3rem;
 }
