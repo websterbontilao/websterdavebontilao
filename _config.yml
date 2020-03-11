@@ -1,0 +1,7 @@
+plugins:
+  - jekyll-seo-tag
+
+title: Webster Dave Bontilao - Portfolio
+description: An online portfolio for Webster Dave Bontilao.
+url: https://websterbontilao.github.io/
+author: Webster Dave Bontilao
