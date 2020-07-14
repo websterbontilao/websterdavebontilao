@@ -151,11 +151,6 @@ function updateBalls(){
     balls = new_balls.slice(0);
 }
 
-// loop alpha
-function loopAlphaInf(){
-    
-}
-
 // Draw lines
 function renderLines(){
     var fraction, alpha;
