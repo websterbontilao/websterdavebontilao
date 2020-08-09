@@ -42,7 +42,7 @@ canvas{
     background-color: #000;
 }
 
-.container {
+.container-fluid, .container {
     position: fixed;
 }
 
@@ -71,6 +71,7 @@ h2, h3, h4, h5, h6 {
 
 #portfolio-details {
     padding-top: 30px;
+    margin: 0 3rem 0 3rem;
 }
 
 #profile-picture {
@@ -89,6 +90,16 @@ if it's not present, don't show loader */
 	height: 100%;
 	z-index: 9999;
 	background: url('../assets/Loading.gif') center no-repeat #fff;
+}
+
+#project-label {
+    font-weight: 400;
+    font-size: large;
+    color: #eee;
+}
+
+.card-body {
+    background-color: #F5F5F5
 }
 
 #contact-informations {
