@@ -117,8 +117,16 @@ footer {
     padding: 25px 15px 25px 15px;
 }
 
+footer div.row {
+    display: contents;
+    font-size: 0.75rem;
+}
+
+.fa.icon:hover {
+    cursor: pointer;
+}
 .fa.icon {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 a .fa.icon:hover {

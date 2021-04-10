@@ -1,6 +1,6 @@
----
+<!-- ---
 title: Webster Dave Bontilao - Portfolio
----
+--- -->
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -19,155 +19,51 @@ title: Webster Dave Bontilao - Portfolio
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <!-- CSS -->
-        <link rel="stylesheet" href="./material-design/material.min.css">
         <link rel="stylesheet" href="./css/bootstrap.min.css">
         <link rel="stylesheet" href="./css/font-awesome.min.css">
         <link rel="stylesheet" href="./css/website-display.css">
 
-        <!-- GOOGLE FONTS -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" async>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" async>
 
-        {% seo %}
+        <!-- {% seo %} -->
     </head>
-    <body id="body">
+    <body id="body" class="mx-5 mx-5">
         <div class="se-pre-con"></div>
-        <div class="container-fluid" id="portfolio-details">
-            <!-- Personal Info Start -->
-            <div id="personal-info" class="row header">
-                <div class="col-xl-1 col-md-1 col-sm-12 d-flex justify-content-center">
-                    <picture>
-                        <source srcset="./assets/profile-pic.webp" calss="webp-src">
-                        <img src="./assets/profile-pic.jpg" alt="Profile Picture" id="profile-picture" class="rounded-circle">
-                    </picture>
+        <div id="personal-details" class="mx-lg-auto">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
-                <div class="col-xl-10 col-md-10 col-sm-12 ml-2">
-                    <div class="row justify-content-center justify-content-md-start">
-                        <h1 id="full-name">Webster Dave Bontilao</h1>
-                    </div>
-                    <div class="row justify-content-center justify-content-md-start">
-                        <h6>
-                            <i class="fa fa-graduation-cap fa-fw" aria-hidden="true"></i> 
-                            Bachelor of Science in Computer Engineering
-                        </h6>
-                    </div>
-                    <div class="row justify-content-center justify-content-md-start">
-                        <a href="mailto: websterbontilao@gmail.com">
-                            <h6>
-                                <i class="fa fa-envelope fa-fw" aria-hidden="true"></i> 
-                                websterbontilao@gmail.com
-                            </h6>
-                        </a>
-                    </div>
-                    <a href="http://bit.ly/2J0sYg2" target="_blank">
-                        <div class="row justify-content-center justify-content-md-start">
-                            <h6>
-                                <i class="fa fa-map-marker fa-fw" aria-hidden="true"></i> 
-                                Brgy. San Jose, Purok 2, Talamban Cebu City
-                            </h6>
-                        </div>
-                        <div class="row justify-content-center justify-content-md-start">
-                            <h6>
-                                <i class="fa fa-map-marker fa-fw invisible" aria-hidden="true"></i> 
-                                Cebu 6000, Philippines
-                            </h6>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <!-- Personal Info End -->
-            <!-- Projects Section Start -->
-            <div class="col-md-6 mt-md-5">
-                <div class="row">
-                    <div id="project-label" class="mb-2">Projects</div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card ml-2" style="width: 18rem;">
-                            <img class="card-img-top" src="./assets/jtransit-logo.png" alt="Jtransit Logo">
-                            <div class="card-body mb-3">
-                                <a data-toggle="collapse" class="card-title-button" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                    <h5 class="card-title">JTransit - Cebu Jeepney Navigation</h5>
-                                </a>
-                                <div class="collapse" id="collapseExample">
-                                    <div class="card card-body">
-                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- <div class="col-md-4">
-                        <div class="card ml-2" style="width: 18rem;">
-                            <img class="card-img-top" src="./assets/jtransit-logo.png" alt="Jtransit Logo">
-                            <div class="card-body mb-3">
-                                <a data-toggle="collapse" class="card-title-button" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
-                                    <h5 class="card-title">JTransit - Cebu Jeepney Navigation</h5>
-                                </a>
-                                <div class="collapse" id="collapseExample2">
-                                    <div class="card card-body">
-                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card ml-2" style="width: 18rem;">
-                            <img class="card-img-top" src="./assets/jtransit-logo.png" alt="Jtransit Logo">
-                            <div class="card-body mb-3">
-                                <a data-toggle="collapse" class="card-title-button" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
-                                    <h5 class="card-title">JTransit - Cebu Jeepney Navigation</h5>
-                                </a>
-                                <div class="collapse" id="collapseExample3">
-                                    <div class="card card-body">
-                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Cras justo odio</li>
+                    <li class="list-group-item">Dapibus ac facilisis in</li>
+                    <li class="list-group-item">Vestibulum at eros</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
                 </div>
             </div>
         </div>
-        <!-- Project Section End -->
+
+
+
         <!-- Portfolio Footer Start -->
-        <footer class="container col-sm-12">
+        <footer class="container mx-auto col-sm-12">
             <div class="row">
-                <div class="col-12 col-sm-12 col-lg-6 footer-content">
-                    <div class="float-lg-right float-xl-right float-sm-none">
-                        <div>All Rights Reserved 2020</div>
-                    </div>
+                <div class="row footer-content">
+                    <div class="mdl-logo">All Rights Reserved 2020</div>
                 </div>
-                <div class="col-12 col-sm-12 col-lg-6 footer-content">
-                    <div class="float-lg-left float-xl-left float-sm-none">
-                        <a href="https://www.linkedin.com/in/webster-dave-bontilao/" target="__blank">
-                            <i class="fa fa-linkedin-square icon" aria-hidden="true"></i>
-                        </a>
-                        <a href="mailto: websterbontilao@gmail.com" target="__blank">
-                            <i class="fa fa-envelope-square icon" aria-hidden="true"></i>
-                        </a>
-                        <a href="https://github.com/websterbontilao" target="__blank">
-                            <i class="fa fa-github-square icon" aria-hidden="true"></i>
-                        </a>
-                        <a href="https://steamcommunity.com/id/evilcarnage" target="__blank">
-                            <i class="fa fa-steam-square icon" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                </div>
+                <div id="footer-icons" class="row footer-content"></div>
             </div>
         </footer>
         <!-- Portfolio Footer End -->
-
-        <canvas id="nokey" width="800" height="800"></canvas>
+    
+        <!-- JAVASCRIPT -->
+        <script src="./js/jquery-2.2.4.min.js"></script>
+        <script src="./js/bootstrap.min.js"></script>
+        <script src="./js/google-sheets.js"></script>
+        <script src="./js/portfolio.js"></script>
     </body>
-
-    <!-- JAVASCRIPT -->
-    <script type="text/javascript" src="./js/background-canvas.js"></script>
-    <script type="text/javascript" src="./material-design/material.min.js"></script>
-    <script type="text/javascript" src="./js/jquery-2.2.4.min.js"></script>
-    <script type="text/javascript" src="./js/modernizr.js"></script>
-    <script type="text/javascript" src="./js/popper.min.js"></script>
-    <script type="text/javascript" src="./js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="./js/portfolio.js" async defer></script>
 </html>
