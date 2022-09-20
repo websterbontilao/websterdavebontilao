@@ -1,0 +1,156 @@
+{
+  "selectedTemplate": 1,
+  "headings": {
+    "skills": "Skills",
+    "education": "Education",
+    "work": "Work Experience",
+    "projects": "Projects",
+    "awards": "Trainings and Awards"
+  },
+  "basics": {
+    "name": "Webster Dave Bontilao",
+    "email": "websterbontilao@gmail.com",
+    "phone": "09324632212 / 09959514051",
+    "location": {
+      "address": "Purok 2, Brgy. San Jose, Cebu City, Cebu, Philippines 6000"
+    },
+    "website": "https://www.linkedin.com/in/webster-dave-bontilao/"
+  },
+  "education": [
+    {
+      "location": "Nasipit Talamban, Cebu City, Cebu Philippines 6000",
+      "area": "Computer Engineering",
+      "studyType": "B.S.",
+      "startDate": "June 2013",
+      "gpa": "",
+      "institution": "University of San Carlos",
+      "endDate": "April 2018"
+    },
+    {
+      "location": "Sudlon Maguikay, Mandaue City, Cebu Philippines 6014",
+      "area": "Secondary Education",
+      "studyType": "",
+      "startDate": "June 2009",
+      "gpa": "",
+      "institution": "Saint Louis College of Cebu",
+      "endDate": "March 2013"
+    }
+  ],
+  "work": [
+    {
+      "location": "Cebu Holdings Center, Cebu Business Park, Cebu City, Cebu Philippines",
+      "website": "https://www.applic8.com/",
+      "highlights": [
+        "Provided production support and BAU operations for a multi-million company in the Philippines",
+        "Client communication and able to suggest best practices or alternatives",
+        "Generates sales and other reports by creating MySQL scripts",
+        "Observes Agile SDLC throughout the development of the project",
+        "Designed relational database schema",
+        "Follows company coding standards, best practices, and architecture",
+        "Follows company/client process with regards to documentations and ticket tagging"
+      ],
+      "position": "Associate Technical Specialist",
+      "startDate": "December 2020",
+      "endDate": "Present",
+      "company": "Applic8 Software Development Inc."
+    },
+    {
+      "location": "Cebu City, Cebu Philippines",
+      "website": "https://alliance.com.ph/",
+      "highlights": [
+        "Provided production support and BAU operations for a multi-million company in the Philippines",
+        "Client communication and able to suggest best practices or alternatives",
+        "Generates sales and other reports by creating MySQL scripts",
+        "Observes Agile SDLC throughout the development of the project",
+        "Designed relational database schema",
+        "Follows company coding standards, best practices, and architecture",
+        "Follows company/client process with regards to documentations and ticket tagging"
+      ],
+      "position": "Associate Technical Specialist",
+      "startDate": "April 2018",
+      "endDate": "November 2020",
+      "company": "Alliance Software Inc."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Language",
+      "level": "",
+      "keywords": [
+        "PHP",
+        "MySQL",
+        "jQuery",
+        "Javascript",
+        "Dart",
+        "Python"
+      ]
+    },
+    {
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Bootstrap"
+      ],
+      "name": "Web Development"
+    },
+    {
+      "keywords": [
+        "Git",
+        "Team Foundation Server",
+        "Jira",
+        "Flutter",
+        "VS Code",
+        "SQLyog"
+      ],
+      "name": "Tools & Technologies"
+    },
+    {
+      "keywords": [
+        "Codeigniter"
+      ],
+      "name": "Frameworks"
+    },
+    {
+      "keywords": [
+        "Google Sheet/MS Excel"
+      ],
+      "name": "Others"
+    },
+    {
+      "keywords": [
+        "English",
+        "Tagalog",
+        "Bisaya"
+      ],
+      "name": "Language"
+    }
+  ],
+  "projects": [
+    {
+      "keywords": [
+        "MySQL",
+        "Python"
+      ],
+      "name": "JTransit - Cebu Jeepney Navigation",
+      "url": "https://jtransit.github.io",
+      "description": "A mobile application for assisting jeepney commuters in Cebu City."
+    }
+  ],
+  "awards": [
+    {
+      "title": "MySQL Training Completion",
+      "summary": "MySQL training for both beginner and advanced lessons in Alliance",
+      "date": "August 2019",
+      "awarder": "Alliance Software Inc."
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "work",
+    "skills",
+    "projects",
+    "education",
+    "awards"
+  ]
+}
