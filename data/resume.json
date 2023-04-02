@@ -9,17 +9,17 @@
   },
   "basics": {
     "name": "Webster Dave Bontilao",
-    "email": "websterbontilao@gmail.com",
+    "email": "websterbontilao@pm.me",
     "phone": "09324632212 / 09959514051",
     "location": {
-      "address": "Purok 2, Brgy. San Jose, Cebu City, Cebu, Philippines 6000"
+      "address": "Cebu City, Cebu, Philippines 6000"
     },
-    "website": "https://www.linkedin.com/in/webster-dave-bontilao/"
+    "website": "https://github.com/websterbontilao"
   },
   "education": [
     {
       "location": "Nasipit Talamban, Cebu City, Cebu Philippines 6000",
-      "area": "Computer Engineering",
+      "area": "Computer Engineering - Major in Software Engineering",
       "studyType": "B.S.",
       "startDate": "June 2013",
       "gpa": "",
@@ -41,17 +41,17 @@
       "location": "Cebu Holdings Center, Cebu Business Park, Cebu City, Cebu Philippines",
       "website": "https://www.applic8.com/",
       "highlights": [
-        "Provided production support and BAU operations for a multi-million company in the Philippines",
-        "Client communication and able to suggest best practices or alternatives",
-        "Generates sales and other reports by creating MySQL scripts",
-        "Observes Agile SDLC throughout the development of the project",
-        "Designed relational database schema",
-        "Follows company coding standards, best practices, and architecture",
-        "Follows company/client process with regards to documentations and ticket tagging"
+        "API Bridge development to be used by an in-house API to communicate with the main application ",
+        "Maintaining 2 versions (PHP 5 & 7) of the main application",
+        "Creating new features in the main application to improve clients' quality of life",
+        "Working in a Mac and Linux (Ubuntu 18.0) environment",
+        "Developing in a containerized application and microservices",
+        "Follows client data security standards during development",
+        "Contributes 20% of productivity per monthly sprint"
       ],
-      "position": "Associate Technical Specialist",
+      "position": "Mid-Level Software Developer",
       "startDate": "December 2020",
-      "endDate": "Present",
+      "endDate": "February 2023",
       "company": "Applic8 Software Development Inc."
     },
     {
@@ -61,15 +61,21 @@
         "Provided production support and BAU operations for a multi-million company in the Philippines",
         "Client communication and able to suggest best practices or alternatives",
         "Generates sales and other reports by creating MySQL scripts",
-        "Observes Agile SDLC throughout the development of the project",
-        "Designed relational database schema",
-        "Follows company coding standards, best practices, and architecture",
-        "Follows company/client process with regards to documentations and ticket tagging"
+        "Participates in the daily scrum/meetings"
       ],
-      "position": "Associate Technical Specialist",
+      "position": "Junior Software Developer",
       "startDate": "April 2018",
       "endDate": "November 2020",
       "company": "Alliance Software Inc."
+    },
+    {
+      "highlights": [
+        "Follows company/client process with regards to documentations and ticket tagging",
+        "Obeying company coding standards, best practices, and architecture",
+        "Observes SOLID, KISS, and DRY principles",
+        "Creating Entity Relationship Diagrams observing database normalization"
+      ],
+      "company": "Common Work Experiences"
     }
   ],
   "skills": [
@@ -78,10 +84,9 @@
       "level": "",
       "keywords": [
         "PHP",
-        "MySQL",
+        "MySQL/DB2",
         "jQuery",
         "Javascript",
-        "Dart",
         "Python"
       ]
     },
@@ -96,23 +101,32 @@
     {
       "keywords": [
         "Git",
-        "Team Foundation Server",
-        "Jira",
-        "Flutter",
-        "VS Code",
-        "SQLyog"
+        "Subversion",
+        "VirtualBox",
+        "Docker",
+        "VS Code"
       ],
-      "name": "Tools & Technologies"
+      "name": "Development Tools"
     },
     {
       "keywords": [
-        "Codeigniter"
+        "Codeigniter",
+        "Laravel"
       ],
       "name": "Frameworks"
     },
     {
       "keywords": [
-        "Google Sheet/MS Excel"
+        "Team Foundation Server",
+        "Redmine",
+        "Jira"
+      ],
+      "name": "Management Tools"
+    },
+    {
+      "keywords": [
+        "Google Sheets",
+        "MS Excel"
       ],
       "name": "Others"
     },
@@ -133,13 +147,13 @@
       ],
       "name": "JTransit - Cebu Jeepney Navigation",
       "url": "https://jtransit.github.io",
-      "description": "A mobile application for assisting jeepney commuters in Cebu City."
+      "description": "A mobile application for assisting jeepney commuters in Cebu City. Contributed in database design, back-end logic, and website development. Maintained good SEO score according to Lighthouse. "
     }
   ],
   "awards": [
     {
       "title": "MySQL Training Completion",
-      "summary": "MySQL training for both beginner and advanced lessons in Alliance",
+      "summary": "In-house MySQL training for both beginner and advanced lessons in Alliance",
       "date": "August 2019",
       "awarder": "Alliance Software Inc."
     }
@@ -149,8 +163,8 @@
     "profile",
     "work",
     "skills",
-    "projects",
     "education",
+    "projects",
     "awards"
   ]
 }
